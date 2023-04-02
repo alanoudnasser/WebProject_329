@@ -1,0 +1,354 @@
+/* main body*/
+*{
+text-indent: 2;
+font-size: medium;
+font-weight: light;
+    font-family: Lexend Exa,'Times New Roman', Times, serif; 
+    font-style:normal;
+}
+body {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fffbff;
+    font-family: Lexend Exa,'Times New Roman', Times, serif;
+    border-color: #ebd8d0;
+}
+footer{
+   text-align: center;
+  display: fixed;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  
+}
+/* main Header*/
+h2{
+    margin-top: 4%;
+    color:#e5bb94 ;
+   
+
+}
+
+h5{
+  font-weight: bold;
+  font-style: italic;
+}
+header {
+    border-style: solid;
+    border-width: 1px;
+    border: 1%;
+    padding: 3%;
+    border-color: #dad2bc;
+}
+    header img {
+        display: block;
+        float: left;
+        border-radius: 60%;
+        margin-bottom: 50px;
+        float: left; 
+     
+
+    
+    }
+    header img.icon {
+        display: block;
+        float:right;
+        border-radius: 5px;
+    }
+header h1 {
+     padding: 7px ;
+      text-indent: 3%;
+      text-align:center;
+      margin-right:60%;
+      font-size: x-large;
+   
+      top: 40px;
+}
+header p{
+    text-align:right;
+	 margin-top: 300px;
+	  letter-spacing: 2px;
+}
+.info{
+    text-align: justify;
+}
+.signout{
+    margin-top: 7px;
+}
+/* main Nav*/
+
+
+a {
+    background-image: linear-gradient( to right, #54b3d6, #54b3d6 50%, #000 50% );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+
+}
+    a:before {
+        content: '';
+        background: #61a5c2;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s ease-in-out;
+		
+    }
+
+    a:hover {
+        background-position: 0;
+    }
+
+        a:hover::before {
+            width: 100%;
+        }
+   /* sign out  */
+a img{
+    display: block;
+    margin-left: 80%;
+    margin-bottom: 0px;
+}
+.addP{
+    background-color:#e5bb94;
+    width:110px;
+height: 40px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* main Div*/
+
+ footer div {
+    border-style: solid;
+    border-width: 1px;
+    padding: 1%;
+    border-color: #ebd8d0;
+}
+
+div img{
+    display:block;
+    float:left;
+ 
+}
+div h2,p,h4{
+    text-align:center;
+
+}
+
+
+
+
+.filter-toggle {
+   
+    justify-content:left;
+    
+    background-color: #ebccad;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #777;
+    margin-bottom: 0px;
+
+}
+
+
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: 20%;
+    margin-right: 40%;
+    
+}
+
+    table thead, td {
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        background-color: 	#e6ccb3;
+        
+    }
+        table thead td {
+            font-weight: bolder;
+        }
+
+    
+
+    table tbody td {
+        background-color: white;
+    }
+
+    table th {
+        width: 140px;
+        height: 40px;
+        text-align: center;
+        background-color: 	#e6ccb3;
+    }
+    table {
+        border:none;
+    }
+
+/*applicant inf*/
+  
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg,  #e5bb94 60%, #f1f8f4 40.1%);
+  }
+  
+  .container form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  .container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .container form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .container form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .container form .row .col .inputBox{
+    margin:15px 0;
+  }
+  
+  .container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .container form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .container form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .container form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .container form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  .container form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  .container form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background:  #cab38b;
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .container form .submit-btn:hover{
+    background: #cab38b;
+  }
+  
+.details {
+  justify-content:left;
+    
+    background-color: #ebccad;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #777;
+    margin-bottom: 0px;
+}
+
+
+
+
+.propic {
+  justify-content:left;
+ 
+}
+
+
+
+
+/* breadcrumbs*/
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
