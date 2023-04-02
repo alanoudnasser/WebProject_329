@@ -16,9 +16,7 @@ body {
 footer{
    text-align: center;
   display: fixed;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
+  clear: both;
   
 }
 /* main Header*/
@@ -306,6 +304,23 @@ table, th, td {
 .propic {
   justify-content:left;
  
+}
+
+.but1 {
+  border-radius: 4px; 
+  padding: 12px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#ebccad;
+  
+
+}
+
+.but2 {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-weight: bold;
 }
 
 
