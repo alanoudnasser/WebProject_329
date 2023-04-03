@@ -16,7 +16,9 @@ body {
 footer{
    text-align: center;
   display: fixed;
-  clear: both;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
   
 }
 /* main Header*/
@@ -137,12 +139,14 @@ div img{
     float:left;
  
 }
-div h2,p,h4{
+div h2,p2,h4{
     text-align:center;
 
 }
 
-
+.p2{
+    text-align:center;
+}
 
 
 .filter-toggle {
@@ -278,7 +282,7 @@ table, th, td {
     width: 100%;
     padding:12px;
     font-size: 17px;
-    background:  #cab38b;
+    background-color: var(--primary-color);
     color:#fff;
     margin-top: 5px;
     cursor: pointer;
@@ -304,23 +308,6 @@ table, th, td {
 .propic {
   justify-content:left;
  
-}
-
-.but1 {
-  border-radius: 4px; 
-  padding: 12px 28px;
-  font-size: 20px;
-  cursor: pointer;
-  background-color:#ebccad;
-  
-
-}
-
-.but2 {
-  cursor: pointer;
-  border: none;
-  background-color: white;
-  font-weight: bold;
 }
 
 
@@ -362,8 +349,210 @@ ul.breadcrumb li a:hover {
 
 
 
+/*************** Add new proprity**************/
+
+
+.fieldsetAdd{
+background-color: white;
+}
+
+
+/***********************************Sign up  and addnewPro**********************************/
+#my-form {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: var(--spacing-md);
+}
+
+/*submit of sign-up  and addnewpro*/
+submit-btno{
+    font-size: calc(var(--base-font-size) * var(--modular-scale));
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+label {
+    display: block;
+    font-size: calc(var(--base-font-size) * var(--modular-scale));
+    font-weight: bold;
+    margin-bottom: var(--spacing-xs);
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+
+.container2 {
+
+    max-width: 800px;
+    margin: 10% auto;
+    padding: var(--spacing-lg);
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+:root {
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 40px;
+    --base-font-size: 16px;
+    --modular-scale: 1.25;
+    --primary-color: #e5bb94;
+    --secondary-color: #ebd8d0;
+    --background-color: white;
+    --text-color: #333333;
+}
+
+
+html {
+    box-sizing: border-box;
+}
 
 
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--base-font-size);
+    line-height: 1.5;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    border-style: solid;
+    border-width: 1px;
+    border: 1%;
+    padding: 3%;
+    border-color: #dad2bc;
+}
+
+header img {
+    display: block;
+    float: left;
+    border-radius: 60%;
+    margin-bottom: 50px;
+    float: left;
 
 
+
+}
+
+header img.icon {
+    display: block;
+    float: right;
+    border-radius: 5px;
+}
+
+header h1 {
+    padding: 7px;
+    text-indent: 3%;
+    text-align: center;
+    margin-right: 60%;
+    font-size: x-large;
+
+    top: 40px;
+}
+
+header p {
+    text-align: right;
+    margin-top: 300px;
+    letter-spacing: 2px;
+}
+.info {
+    text-align: justify;
+}
+
+.signout {
+    margin-top: 7px;
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+
+/**h1 for Ash*/
+.ash {
+    font-size: calc(var(--base-font-size) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale));
+    font-weight: bold;
+    margin-bottom: var(--spacing-md);
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: calc(var(--base-font-size) * var(--modular-scale));
+    font-weight: bold;
+    margin-bottom: var(--spacing-xs);
+}
+
+
+#my-form {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: var(--spacing-md);
+}
+
+input {
+    font-size: calc(var(--base-font-size) * var(--modular-scale));
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.AddnewS {
+    font-size: calc(var(--base-font-size) * var(--modular-scale));
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+
+AddnewA {
+    width: 100%;
+}
+
+button {
+    font-size: calc(var(--base-font-size) * var(--modular-scale));
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.categ{
+   isplay: block;
+    font-size: calc(var(--base-font-size) * var(--modular-scale));
+    font-weight: bold;
+    margin-bottom: var(--spacing-xs);
+}
+
+
+
+/****************************end Sign-up********************************/
