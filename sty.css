@@ -51,9 +51,10 @@ header {
     
     }
     header img.icon {
-        display: block;
+        display: flex;
         float:right;
         border-radius: 5px;
+        
     }
 header h1 {
      padding: 7px ;
@@ -69,11 +70,13 @@ header p{
 	 margin-top: 300px;
 	  letter-spacing: 2px;
 }
+
 .info{
     text-align: justify;
 }
 .signout{
     margin-top: 7px;
+   
 }
 /* main Nav*/
 
@@ -108,7 +111,7 @@ a {
     }
 
         a:hover::before {
-            width: 100%;
+            width: 70%;
         }
    /* sign out  */
 a img{
