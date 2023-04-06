@@ -35,7 +35,7 @@ header {
     border-style: solid;
     border-width: 1px;
     border: 1%;
-    padding: 3%;
+    padding: 5%;
     border-color: #dad2bc;
 }
     header img {
@@ -74,6 +74,8 @@ header p{
 }
 .signout{
     margin-top: 7px;
+    text-align: centet;
+    display: flex block;
    
 }
 /* main Nav*/

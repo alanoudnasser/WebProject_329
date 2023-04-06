@@ -13,7 +13,7 @@ loginBtn.addEventListener('click', () => {
     const password = document.getElementById('password').value;
     const role = document.getElementById('role').value;
     if (email === "" && password === "") {
-        re.append("Please enter your name and password")
+        re.append("Please enter your Email and password")
     } else {
         if (role === 'home-seeker') {
             window.location.href = 'home-seeker.html';
