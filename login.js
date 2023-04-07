@@ -4,7 +4,7 @@
  */
 
 const loginBtn = document.getElementById('login-btn');
-const re = document.getElementById("er")
+const re = document.getElementById("er");
 
 loginBtn.addEventListener('click', () => {
 
@@ -13,13 +13,13 @@ loginBtn.addEventListener('click', () => {
     const password = document.getElementById('password').value;
     const role = document.getElementById('role').value;
     if (email === "" && password === "") {
-        re.append("Please enter your Email and password")
+        re.append("Please enter your Email and password");
     } else {
         if (role === 'home-seeker') {
-            window.location.href = 'home-seeker.html';
+            window.location.href = 'homeSeeker.html';
 
         } else if (role === 'homeowner') {
-            window.location.href = 'homeowner.html';
+            window.location.href = 'HomeOwner.html';
         }
     }
 
