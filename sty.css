@@ -34,7 +34,7 @@ h5{
 header {
     border-style: solid;
     border-width: 1px;
-    border: 1%;
+    border: 2px;
     padding: 5%;
     border-color: #dad2bc;
 }
@@ -50,7 +50,7 @@ header {
     }
     header img.icon {
         display: flex;
-        float:right;
+        
         border-radius: 5px;
         
     }
@@ -335,9 +335,11 @@ div.cont {
 
 /* Style the list */
 ul.breadcrumb {
-  padding: 10px 16px;
+  padding: 10px 16px 10px 16px;
   list-style: none;
   background-color: #eee;
+   justify-content: center;
+  align-items: left;
 }
 
 /* Display list items side by side */
@@ -355,7 +357,7 @@ ul.breadcrumb li+li:before {
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-  color: #0275d8;
+  color:#e6ccb3;
   text-decoration: none;
 }
 
