@@ -19,7 +19,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     --background-color: white;
     --text-color: #333333;
 }
+/* log out home page button*/
+.flex {
+  display: flex;
+}
 
+.justify-between {
+  justify-content: space-between;
+}	
+  
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
@@ -57,20 +65,12 @@ header img.icon {
     border-radius: 5px;
 }
 
-header h1 {
-    padding: 7px;
-    text-indent: 3%;
-    text-align: center;
-    margin-right: 60%;
-    font-size: x-large;
 
-    top: 40px;
-}
 
 header p {
     text-align: right;
     margin-top: 300px;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
 }
 
 .info {
@@ -260,4 +260,35 @@ footer div {
     padding: 1%;
     border-color: #ebd8d0;
     text-align: center;
+}
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
 }
