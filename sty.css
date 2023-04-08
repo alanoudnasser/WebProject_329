@@ -46,6 +46,9 @@ header img {
     float: left;
     border-radius: 60%;
     margin-bottom: 50px;
+    position:absolute;
+    top:0;
+    left:0;
 
 
 
@@ -101,7 +104,7 @@ ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
   background-color: #eee;
-  display: block
+  display: block;
 }
 
 /* Display list items side by side */
